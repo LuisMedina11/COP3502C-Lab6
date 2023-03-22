@@ -20,6 +20,11 @@ def encoder(x):
     return addition
 
 
+def decode():
+    print(f'The encoded password is {y}, and the original password is {z}.')  # Prints the decode function statement
+    print()
+
+
 w = True
 if __name__ == "__main__":
     while w is True:
@@ -38,7 +43,7 @@ if __name__ == "__main__":
             print('Encoded password: ', y)
 
         elif m == 2:
-            pass
+            decode()  # Runs the decode function when option 2 is chosen
 
         elif m == 3:
             print('Goodbye.')
