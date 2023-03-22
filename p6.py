@@ -1,4 +1,4 @@
-def encoder(x):
+def encoder(x):   # Luis Medina code
     x = int(x)   # Turns str into int
     a = (((x // 10000000) % 10) + 3) % 10
     b = (((x // 1000000) % 10) + 3) % 10
